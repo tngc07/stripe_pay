@@ -115,7 +115,7 @@ body {
     <li class="grey">
 
         <form action="" method="POST" class="spacing">
-        <input name="plan" type="hidden" value="BasicMonthly" />         
+        <input name="plan" type="hidden" value="BasicMonthly2" />         
         <input name="interval" type="hidden" value="month" />         
         <input name="price" type="hidden" value="9.99" />         
         <input name="currency" type="hidden" value="usd" />         
@@ -146,7 +146,7 @@ body {
     <li class="grey">
        <form action="" method="POST" class="spacing">
          
-        <input name="plan" type="hidden" value="ProPlan" />         
+        <input name="plan" type="hidden" value="ProPlan2" />         
         <input name="interval" type="hidden" value="year" />         
         <input name="price" type="hidden" value="99.99" />         
         <input name="currency" type="hidden" value="usd" />               
@@ -174,7 +174,7 @@ body {
     <li>24 Personalized clases</li>
     <li class="grey">
 <form action="" method="POST" class="spacing">     
-        <input name="plan" type="hidden" value="Premium" />         
+        <input name="plan" type="hidden" value="Premium2" />         
         <input name="interval" type="hidden" value="year" />         
         <input name="price" type="hidden" value="149.99" />         
         <input name="currency" type="hidden" value="usd" />           

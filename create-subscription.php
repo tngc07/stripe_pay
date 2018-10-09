@@ -4,8 +4,9 @@
   if (isset($_POST['stripeToken']) && isset($_POST['plan'])){
      try 
      {            
-
-      $plan = \Stripe\Plan::create(array(
+      //This code to create the plan for first time
+      
+      /* $plan = \Stripe\Plan::create(array(
             //"name" => $_POST['plan'],
             "id" => "plan-".$_POST['plan'],
             "interval" => $_POST['interval'],
@@ -14,7 +15,11 @@
              "product" => array(
                "name" => $_POST['plan'],
              ),
-          ));
+          )); */
+
+      //$prod_id_bm2 = "prod_DktHhCIcz1CPep";
+      //$plan_id_bm2 = "plan-BasicMonthly2";
+      
       
 
         $customer = \Stripe\Customer::create(array(
