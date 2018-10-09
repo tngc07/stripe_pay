@@ -103,7 +103,7 @@ body {
  
 <div class="content" style="width:60%;">
 <h2 style="text-align:center">BTL Stripe Subscriptions</h2>
-<h4 style="text-align:center">choose your plan</h4>
+<h3 style="text-align:center">choose your plan</h3>
 
 <div class="columns">
   <ul class="price">
@@ -115,7 +115,7 @@ body {
     <li class="grey">
 
         <form action="" method="POST" class="spacing">
-        <input name="plan" type="hidden" value="basic-monthly" />         
+        <input name="plan" type="hidden" value="BasicMonthly" />         
         <input name="interval" type="hidden" value="month" />         
         <input name="price" type="hidden" value="9.99" />         
         <input name="currency" type="hidden" value="usd" />         
@@ -146,7 +146,7 @@ body {
     <li class="grey">
        <form action="" method="POST" class="spacing">
          
-        <input name="plan" type="hidden" value="pro" />         
+        <input name="plan" type="hidden" value="ProPlan" />         
         <input name="interval" type="hidden" value="year" />         
         <input name="price" type="hidden" value="99.99" />         
         <input name="currency" type="hidden" value="usd" />               
@@ -174,7 +174,7 @@ body {
     <li>24 Personalized clases</li>
     <li class="grey">
 <form action="" method="POST" class="spacing">     
-        <input name="plan" type="hidden" value="premium" />         
+        <input name="plan" type="hidden" value="Premium" />         
         <input name="interval" type="hidden" value="year" />         
         <input name="price" type="hidden" value="149.99" />         
         <input name="currency" type="hidden" value="usd" />           
