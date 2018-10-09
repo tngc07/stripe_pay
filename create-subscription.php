@@ -5,7 +5,7 @@
      try 
      {            
       //This code to create the plan for first time
-      
+
       /* $plan = \Stripe\Plan::create(array(
             //"name" => $_POST['plan'],
             "id" => "plan-".$_POST['plan'],
@@ -37,7 +37,9 @@
         ));
 
         
-          $success = "Thanks! You've subscribed to the " . $_POST['plan'] .  " plan.";
+          //$success = "Thanks! You've subscribed to the " . $_POST['plan'] .  " plan.";
+          header('Location: thankyou.html');
+          exit;
     }
     catch(\Stripe\Error\Card $e) {
       // Since it's a decline, \Stripe\Error\Card will be caught
