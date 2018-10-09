@@ -103,7 +103,7 @@ body {
  
 <div class="content" style="width:60%;">
 <h2 style="text-align:center">BTL Stripe Subscriptions</h2>
-<h3 style="text-align:center">choose your plan</h3>
+<h3 style="text-align:center">Choose your plan:</h3>
 
 <div class="columns">
   <ul class="price">
